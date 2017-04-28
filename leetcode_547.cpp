@@ -1,3 +1,11 @@
+/************
+Friend Circles
+大意：
+找朋友，有直接关系的为1，如果M(i,j)=1 && M(j,k)=1,那么ijk属于一个朋友圈。
+思路：
+新知识-并查集，解决是否属于同一个集合的问题，最后技术集合数，具体见笔记。
+
+************/
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& M) {
